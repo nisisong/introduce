@@ -1,0 +1,198 @@
+html,
+body {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+.ab {
+  position: absolute;
+}
+#musicBtn {
+  position: absolute;
+  width: 40px;
+  z-index: 9999;
+  top: 10px;
+  right: 10px;
+}
+#swiper {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+}
+#swiper .swiper-slide {
+  position: relative;
+  width: 100%;
+}
+#swiper .swiper-slide .arrowUp {
+  bottom: 10px;
+  width: 38px;
+  left: 45%;
+}
+#swiper .swiper-slide:nth-child(1) {
+  background-color: #1e2339;
+}
+#swiper .swiper-slide:nth-child(1) .idx_bg {
+  width: 100%;
+  height: 40%;
+  top: 0;
+  left: 0;
+}
+#swiper .swiper-slide:nth-child(1) .idx_bg img {
+  width: 100%;
+  border: none;
+}
+#swiper .swiper-slide:nth-child(1) .idx_zw {
+  width: 100%;
+  top: 30%;
+  left: 0;
+}
+#swiper .swiper-slide:nth-child(1) .idx_zw span {
+  font: 10px;
+  font-weight: bold;
+  margin-left: 33%;
+  color: #0fc4c4;
+  width: 135px;
+  height: 17px;
+}
+#swiper .swiper-slide:nth-child(1) .idx_zw img {
+  width: 100%;
+  border: none;
+}
+#swiper .swiper-slide:nth-child(1) .idx_zj {
+  width: 100px;
+  height: 100px;
+  top: 50%;
+  left: 35%;
+}
+#swiper .swiper-slide:nth-child(1) .idx_zj img {
+  height: 100px;
+  border: 1px solid #171717;
+  border-radius: 50px;
+}
+#swiper .swiper-slide:nth-child(1) .idx_xx {
+  width: 100%;
+  height: 30%;
+  top: 75%;
+  left: 0;
+  display: flex;
+}
+#swiper .swiper-slide:nth-child(1) .idx_xx ul {
+  width: 100%;
+  height: 100%;
+}
+#swiper .swiper-slide:nth-child(1) .idx_xx ul li {
+  float: left;
+  width: 15%;
+  height: 70px;
+  margin-left: 4%;
+}
+#swiper .swiper-slide:nth-child(1) .idx_xx ul li img {
+  width: 100%;
+  height: 100%;
+}
+#swiper .swiper-slide:nth-child(1) .idx_xx ul li b {
+  display: block;
+  margin-top: -60px;
+  margin-left: 10%;
+  font-size: 20px;
+  color: #0fc4c4;
+}
+#swiper .swiper-slide:nth-child(2) {
+  background-color: #1e2339;
+}
+#swiper .swiper-slide:nth-child(2) .tou {
+  width: 100%;
+  height: 15%;
+  left: 0;
+  top: 10%;
+  display: flex;
+}
+#swiper .swiper-slide:nth-child(2) .tou ul {
+  width: 100%;
+  height: 100%;
+}
+#swiper .swiper-slide:nth-child(2) .tou ul .tou_zi {
+  display: flex;
+  height: 100%;
+  float: left;
+}
+#swiper .swiper-slide:nth-child(2) .tou ul .tou_zi p {
+  margin-left: 50px;
+  margin-top: 40px;
+  color: #0d99a3;
+  display: block;
+  font-size: 14px;
+}
+#swiper .swiper-slide:nth-child(2) .tou ul .tou_tu {
+  width: 80px;
+  height: 85px;
+  float: right;
+  margin-right: 25px;
+}
+#swiper .swiper-slide:nth-child(2) .tou ul .tou_tu img {
+  width: 100%;
+  height: 100%;
+}
+#swiper .swiper-slide:nth-child(2) .tou ul .tou_tu b {
+  display: block;
+  margin-top: -100%;
+  margin-left: 13%;
+  font-size: 24px;
+  color: #0fc4c4;
+}
+#swiper .swiper-slide:nth-child(2) .two_x {
+  width: 100%;
+  height: 50%;
+  margin-top: 65%;
+}
+#swiper .swiper-slide:nth-child(2) .two_x ul {
+  width: 100%;
+  height: 100%;
+}
+#swiper .swiper-slide:nth-child(2) .two_x ul li {
+  width: 100%;
+  height: 20%;
+  border-bottom: 2px solid #0d99a3;
+  box-sizing: border-box;
+}
+#swiper .swiper-slide:nth-child(2) .two_x ul li img {
+  width: 35px;
+  height: 35px;
+  margin-left: 10%;
+  border: none;
+  padding-top: 5%;
+}
+#swiper .swiper-slide:nth-child(2) .two_x ul li p {
+  color: #fff;
+  margin-top: -8%;
+  font-size: 14px;
+  font-weight: bold;
+}
+#swiper .swiper-slide:nth-child(2) .two_x ul li .xm {
+  margin-left: 40%;
+}
+#swiper .swiper-slide:nth-child(2) .two_x ul li .xl {
+  margin-left: 40%;
+}
+#swiper .swiper-slide:nth-child(2) .two_x ul li .jz {
+  margin-left: 35%;
+}
+#swiper .swiper-slide:nth-child(2) .two_x ul li .yx {
+  margin-left: 30%;
+}
+#swiper .swiper-slide:nth-child(2) .two_x ul li .lx {
+  margin-left: 30%;
+}
+#swiper .swiper-slide:nth-child(3) {
+  background-color: #597eb2;
+}
+#swiper .swiper-slide:nth-child(4) {
+  background-color: #afc427;
+}
+#swiper .swiper-slide:nth-child(5) {
+  background-color: #000;
+}
+#swiper .swiper-slide:nth-child(6) {
+  background-color: #0e395b;
+}
+/*# sourceMappingURL=index.css.map */
