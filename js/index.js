@@ -9,21 +9,23 @@ var mySwiper = new Swiper("#swiper",{
 	}
 });
 
-
+var mySwiper = new Swiper('.swiper-container',{
+			touchRatio : 0.5,
+});
 //音乐播放控件
-//var isPlay = true;
-//var musicBtn = document.getElementById("musicBtn");
-//var ado = document.getElementById("ado");
-//
-//musicBtn.onclick = function(){
-//	if(isPlay){
-//		ado.play();
-//		isPlay = false;
-//		musicBtn.src = "images/musicBtn.png"
-//	}else{
-//		ado.pause();
-//		isPlay = true;
-//		musicBtn.src = "images/musicBtnOff.png"
-//	}
-//}
-//musicBtn.click();
+var isPlay = true;
+var musicBtn = document.getElementById("musicBtn");
+var ado = document.getElementById("ado");
+
+musicBtn.onclick = function(){
+	if(isPlay){
+		ado.play();
+		isPlay = false;
+		musicBtn.src = "images/musicBtn.png"
+	}else{
+		ado.pause();
+		isPlay = true;
+		musicBtn.src = "images/musicBtnOff.png"
+	}
+}
+musicBtn.click();

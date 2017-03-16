@@ -8,11 +8,25 @@
 		<link rel="stylesheet" type="text/css" href="css/index.css"/>
 		<link rel="stylesheet" type="text/css" href="swiper/css/animate.css"/>
 		<link rel="stylesheet" type="text/css" href="swiper/css/swiper-3.4.1.min.css"/>
+		<style type="text/css" media="screen">
+			@media screen and (min-width: 1030px) {
+				html{
+					text-align:center;
+				}
+				body{
+					background: yellowgreen;
+					max-width: 450px;
+					margin-left:50%;
+					left:-210px;
+					position: relative;
+				}
+			}
+		</style>
 	</head>
 	<body>
 		<div class="swiper-container" id="swiper">
 			<div class="swiper-wrapper">
-				<div class="swiper-slide">
+				<div class="swiper-slide swiper-container">
 					<div class="idx_bg ab">
 						<img class="animated alwaysZoom " src="images/o_1b7q61tovqta6vq1hvg1ui81j619(1).jpg" />
 					</div>
@@ -58,7 +72,7 @@
 					</div>
 				</div>
 				<!--第1页结束-->
-				<div class="swiper-slide">
+				<div class="swiper-slide swiper-container">
 					<div class="tou ab" >
 						<ul>
 							<li class="tou_zi ani" swiper-animate-effect="bounceInRight" swiper-animate-duration="3s" swiper-animate-delay="0.5s">
@@ -72,23 +86,23 @@
 					</div>
 					<div class="two_x ab">
 						<ul>
-							<li class="ani" swiper-animate-effect="bounceInLeft" swiper-animate-duration="4s" swiper-animate-delay="0.5">
+							<li class="ani" swiper-animate-effect="fadeInLeftBig" swiper-animate-duration="4s" swiper-animate-delay="0.5">
 								<img src="images/o_1b7ibifl31qaj1e4g14s68ii130d9.png" class="ani" swiper-animate-effect="fadeInLeft" swiper-animate-duration="3s" swiper-animate-delay="2s"/>
 								<p class="xm ani" swiper-animate-effect="fadeInRight" swiper-animate-duration="3.5s" swiper-animate-delay="2.5s">姓名：宋妮斯</p>
 							</li>
-							<li class="ani" swiper-animate-effect="bounceInLeft" swiper-animate-duration="4s" swiper-animate-delay="1s">
+							<li class="ani" swiper-animate-effect="fadeInLeftBig" swiper-animate-duration="4s" swiper-animate-delay="1s">
 								<img src="images/o_1b7iblnotkvcslv12in1i5d1fn4l.png" class="ani"swiper-animate-effect="fadeInLeft" swiper-animate-duration="3s" swiper-animate-delay="2.5s"/>
 								<p class="xl ani" swiper-animate-effect="fadeInRight" swiper-animate-duration="3.5s" swiper-animate-delay="3s">学历：本科</p>
 							</li>
-							<li class="ani" swiper-animate-effect="bounceInLeft" swiper-animate-duration="4s" swiper-animate-delay="1.5s">
+							<li class="ani" swiper-animate-effect="fadeInLeftBig" swiper-animate-duration="4s" swiper-animate-delay="1.5s">
 								<img src="images/o_1b7ubr9oi15ut1on41mr71pm10ivq.png" class="ani"swiper-animate-effect="fadeInLeft" swiper-animate-duration="3s" swiper-animate-delay="3s"/>
 								<p class="jz ani" swiper-animate-effect="fadeInRight" swiper-animate-duration="3.5s" swiper-animate-delay="3.5s">居住地：浙江·杭州</p>
 							</li>
-							<li class="ani" swiper-animate-effect="bounceInLeft" swiper-animate-duration="4s" swiper-animate-delay="2s">
+							<li class="ani" swiper-animate-effect="fadeInLeftBig" swiper-animate-duration="4s" swiper-animate-delay="2s">
 								<img src="images/o_1b7ucecp7vpp6di2sm2up9sv9.png" class="ani"swiper-animate-effect="fadeInLeft" swiper-animate-duration="3s" swiper-animate-delay="3.5s"/>
 								<p class="yx ani" swiper-animate-effect="fadeInRight" swiper-animate-duration="3.5s" swiper-animate-delay="4s">邮箱：1017735045@qq.com</p>
 							</li>
-							<li class="ani" swiper-animate-effect="bounceInLeft" swiper-animate-duration="4s" swiper-animate-delay="2.5s">
+							<li class="ani" swiper-animate-effect="fadeInLeftBig" swiper-animate-duration="4s" swiper-animate-delay="2.5s">
 								<img src="images/o_1b7ibuqd11a7t17ms69j9c5ju91f.png" class="ani"swiper-animate-effect="fadeInLeft" swiper-animate-duration="3s" swiper-animate-delay="4s"/>
 								<p class="lx ani" swiper-animate-effect="fadeInRight" swiper-animate-duration="3.5s" swiper-animate-delay="4.5s">联系电话：18879026357</p>
 							</li>
@@ -99,7 +113,7 @@
 						<img class="animated arrowUp infinite alternate linear ani" swiper-animate-duration="1.2s" swiper-animate-delay="0.8s" src="images/arrow-up.png" alt="" />
 					</div>
 				</div><!--第2页结束-->
-				<div class="swiper-slide">
+				<div class="swiper-slide swiper-container">
 					<div class="jl ab">
 						<ul>
 							<li class="jl_zi ani" swiper-animate-effect="fadeInRight" swiper-animate-duration="0.5s" swiper-animate-delay="3s">
@@ -129,7 +143,7 @@
 						<img class="animated arrowUp infinite alternate linear ani" swiper-animate-duration="0.8s" swiper-animate-delay="1.2s" src="images/arrow-up.png" alt="" />
 					</div>
 				</div><!--第3页结束-->
-				<div class="swiper-slide">
+				<div class="swiper-slide swiper-container">
 					<div class="jl ab">
 						<ul>
 							<li class="jl_zi ani" swiper-animate-effect="fadeInRight" swiper-animate-duration="0.5s" swiper-animate-delay="3s">
@@ -223,8 +237,37 @@
 					</div>
 
 				</div><!--第4页结束-->
-				<div class="swiper-slide"></div><!--第5页结束-->
-				<div class="swiper-slide">
+				<div class="swiper-slide swiper-container">
+					<div class="jl ab">
+						<ul>
+							<li class="jl_zi ani" swiper-animate-effect="fadeInRight" swiper-animate-duration="0.5s" swiper-animate-delay="3s">
+								<p> Works show</p>
+							</li>
+							<li class="jl_tu" >
+								<img src="images/o_1b75s07gev8mhlc7pma8q1po2g.png" class="ani" swiper-animate-effect="bounceInRight" swiper-animate-delay="0.5s"/>
+								<b class="ani" swiper-animate-effect="bounceInDown" swiper-animate-duration="1.5s" swiper-animate-delay="1.5s">作品展示</b>
+							</li>
+						</ul>
+					</div>
+					<div class="zuop1 ab">
+						<img src="images/zuo6.png"/>
+					</div>
+					<div class="zuop2 ab">
+						<img src="images/zuo4.png" />
+					</div>
+					
+					<div class="zuop3 ab">
+						<img src="images/zuopin4.png" />
+					</div>
+					<div class="zuop4 ab">
+						<img src="images/zuopin3.png" />
+					</div>
+					<!--上划-->
+					<div class="arrowUp ab">
+						<img class="animated arrowUp infinite alternate linear ani" swiper-animate-duration="0.8s" swiper-animate-delay="1.2s" src="images/arrow-up.png" alt="" />
+					</div>
+				</div><!--第5页结束-->
+				<div class="swiper-slide swiper-container">
 					<div class="jl ab">
 						<ul>
 							<li class="jl_zi ani" swiper-animate-effect="fadeInRight" swiper-animate-duration="0.5s" swiper-animate-delay="3s">
@@ -264,9 +307,9 @@
 			<!--swiper-wrapper结束-->
 		</div>
 		<!--swiper-container结束-->
-			<!--<img src="images/musicBtn.png" id="musicBtn"/>
+			<img src="images/musicBtn.png" id="musicBtn"/>
 			<audio src="images/music.mp3"  id="ado"></audio>
-		-->
+		
 
 	</body>
 	<script type="text/javascript" src="swiper/js/swiper-3.4.1.min.js"></script>
